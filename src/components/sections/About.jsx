@@ -4,18 +4,21 @@ import sama from '../../assets/sama+rocks.jpeg'
 export const About = () => {
     const frontendSkills = [
         "React", 
-        "Vue", 
-        "TypeSxript", 
-        "TailwindCSS", 
-        "Svelt"
+        "Vite", 
+        "JavaScript", 
+        "TypeScript",
+        "Tailwind CSS", 
     ];
 
     const backendSkills = [
-        "Node.js",
+        "C++",
         "Python",
-        "AWS",
-        "MongoDB", 
-        "GraphQL"
+        "Flask",
+        "SQL", 
+        "Swift",
+        "Java",
+        "Spring Boot",
+        "API",
     ];
 
     return (

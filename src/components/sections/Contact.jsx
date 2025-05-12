@@ -47,6 +47,7 @@ export const Contact = () => {
                             value={formData.name}
                             className="w-full bg-blue/5 border border-blue/10 rounded px-4 py-3 text-blue transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5" 
                             placeholder="Name"
+                            style={{ fontFamily: "Darker Grotesque" }}
                             onChange={(e) => setFormData({...formData, name: e.target.value})}
                         />
                     </div>
@@ -59,6 +60,7 @@ export const Contact = () => {
                             value={formData.email}
                             className="w-full bg-blue/5 border border-blue/10 rounded px-4 py-3 text-blue transition focus:outline-none focus:border-blue-500 focus:bg-blue"
                             placeholder="Email"
+                            style={{ fontFamily: "Darker Grotesque" }}
                             onChange={(e) => setFormData({...formData, email: e.target.value})}
                         />
                     </div>
@@ -72,13 +74,14 @@ export const Contact = () => {
                             rows={5}
                             className="w-full bg-blue/5 border border-blue/10 rounded px-4 py-3 text-blue transition focus:outline-none focus:border-blue-500 focus:bg-blue"
                             placeholder="Your Message"
+                            style={{ fontFamily: "Darker Grotesque" }}
                             onChange={(e) => setFormData({...formData, message: e.target.value})}
                         />
                     </div>
 
                     <button
                         type="submit"
-                        className="w-full bg-[#9fd7e9] text-black py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5"
+                        className="w-full bg-[#9fd7e9] text-black py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:brightness-110"
                         style={{fontFamily: "Darker Grotesque"}}
                     >
                         Send Message!

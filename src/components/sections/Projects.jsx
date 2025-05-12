@@ -208,7 +208,7 @@ export const Projects = () => {
                             />
                         </a>
                         <p className="text-blue-400 mb-4 text-center">
-                            Language Learning App <br />(in the works!)
+                            Language Learning App <br />(in progress!)
                         </p>
                         <div className="flex flex-wrap justify-center gap-2 mb-4">
                             {["JavaScript", "React", "Python", "Django", "Firebase", "MongoDB"].map((tech, key) => (
